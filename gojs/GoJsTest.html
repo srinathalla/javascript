@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script src="go-debug.js"> </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gojs/1.7.6/go-debug.js"></script>
 <script id="code">
 function launch() {
 var $ = go.GraphObject.make;
@@ -9,18 +9,46 @@ var myDiagram =
   $(go.Diagram, "myDiagramDiv",
     {
       initialContentAlignment: go.Spot.Center, // center Diagram contents
-      "undoManager.isEnabled": true // enable Ctrl-Z to undo and Ctrl-Y to redo
+      "undoManager.isEnabled": true, // enable Ctrl-Z to undo and Ctrl-Y to redo
+      // specify a Diagram.layout that arranges trees
+      layout: $(go.TreeLayout, 
+                { angle: 90, layerSpacing: 35 })
     });
+    
+    // define a simple Node template
+myDiagram.nodeTemplate =
+  $(go.Node, "Horizontal",
+    // the entire node will have a light-blue background
+    { background: "#44CCFF" },
+    $(go.Picture,
+      // Pictures should normally have an explicit width and height.
+      // This picture has a red background, only visible when there is no source set
+      // or when the image is partially transparent.
+      { margin: 10, width: 50, height: 50, background: "red" },
+      // Picture.source is data bound to the "source" attribute of the model data
+      new go.Binding("source")),
+    $(go.TextBlock,
+      "Default Text",  // the initial value for TextBlock.text
+      // some room around the text, a larger font, and a white stroke:
+      { margin: 12, stroke: "white", font: "bold 16px sans-serif" },
+      // TextBlock.text is data bound to the "name" attribute of the model data
+      new go.Binding("text", "name"))
+  );
 
-var myModel = $(go.Model);
-// in the model data, each node is represented by a JavaScript object:
-myModel.nodeDataArray = [
-  { key: "Alpha" },
-  { key: "Beta" },
-  { key: "Gamma" }
+var model = $(go.TreeModel);
+model.nodeDataArray =
+[ // the "key" and "parent" property names are required,
+  // but you can add whatever data properties you need for your app
+  { key: "1",              name: "Don Meow",   source: "cat1.png" },
+  { key: "2", parent: "1", name: "Demeter",    source: "cat2.png" },
+  { key: "3", parent: "1", name: "Copricat",   source: "cat3.png" },
+  { key: "4", parent: "3", name: "Jellylorum", source: "cat4.png" },
+  { key: "5", parent: "3", name: "Alonzo",     source: "cat5.png" },
+  { key: "6", parent: "2", name: "Munkustrap", source: "cat6.png" }
 ];
+myDiagram.model = model;
+    
 
-myDiagram.model = myModel;
 }
 </script>
 </head>
@@ -28,7 +56,7 @@ myDiagram.model = myModel;
 <body onload="launch()">
 
 <div id="myDiagramDiv"
-     style="width:400px; height:150px; background-color: #DAE4E4;"></div>
+     style="width:800px; height:450px; background-color: #DAE4E4;"></div>
    
 </body>
 <html>

@@ -1,0 +1,168 @@
+{
+	"name": "get",
+	"operationConfig": {
+		"name": "queryVTISAMPLEORDER9512",
+		"type": "MappedToBackend",
+		"jsContent": null,
+		"cachable": false,
+		"cacheDuration": "",
+		"smsCode": "",
+		"smsEnabled": false,
+		"security": "authorized_app_user",
+		"timeOut": null,
+		"responseEncoding": "UTF-8",
+		"requestTemplate": null,
+		"responseTemplate": null,
+		"httpMethod": "GET",
+		"decodeResponseBody": false,
+		"referencingEndpoint": "237",
+		"inputs": [],
+		"outputs": [],
+		"headers": [{
+			"id": "KonySAP-Session-Key",
+			"testValue": "",
+			"defaultValue": null,
+			"scope": "request",
+			"description": null
+		}],
+		"odata": [{
+			"id": "$select",
+			"dataType": "string",
+			"testValue": "",
+			"defaultValue": "",
+			"encode": true,
+			"description": "",
+			"accessType": "readonly",
+			"scope": "",
+			"operator": "",
+			"sourceValue": ""
+		},
+		{
+			"id": "$filter",
+			"dataType": "string",
+			"testValue": "",
+			"defaultValue": "",
+			"encode": true,
+			"description": "",
+			"accessType": "readonly",
+			"scope": "",
+			"operator": "",
+			"sourceValue": ""
+		},
+		{
+			"id": "$orderby",
+			"dataType": "string",
+			"testValue": "",
+			"defaultValue": "",
+			"encode": true,
+			"description": "",
+			"accessType": "readonly",
+			"scope": "",
+			"operator": "",
+			"sourceValue": ""
+		},
+		{
+			"id": "$top",
+			"dataType": "string",
+			"testValue": "",
+			"defaultValue": "",
+			"encode": true,
+			"description": "",
+			"accessType": "readonly",
+			"scope": "",
+			"operator": "",
+			"sourceValue": ""
+		},
+		{
+			"id": "$skip",
+			"dataType": "string",
+			"testValue": "",
+			"defaultValue": "",
+			"encode": true,
+			"description": "",
+			"accessType": "readonly",
+			"scope": "",
+			"operator": "",
+			"sourceValue": ""
+		},
+		{
+			"id": "$expand",
+			"dataType": "string",
+			"testValue": "",
+			"defaultValue": "",
+			"encode": true,
+			"description": "",
+			"accessType": "readonly",
+			"scope": "",
+			"operator": "",
+			"sourceValue": ""
+		},
+		{
+			"id": "$batchsize",
+			"dataType": "string",
+			"testValue": "",
+			"defaultValue": "",
+			"encode": true,
+			"description": "",
+			"accessType": "readonly",
+			"scope": "",
+			"operator": "",
+			"sourceValue": ""
+		},
+		{
+			"id": "$batchid",
+			"dataType": "string",
+			"testValue": "",
+			"defaultValue": "",
+			"encode": true,
+			"description": "",
+			"accessType": "readonly",
+			"scope": "",
+			"operator": "",
+			"sourceValue": ""
+		}],
+		"iMapping": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">            <map inputpath=\"request_in\" outputpath=\"request_out\">                        <exec-function name=\"kony.gen.obj.E_VTI_SAMPLE_ORDER__hierarchy.toLOBFields\"/>            </map></mapper>",
+		"oMapping": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">  <map inputpath=\"response_in\" outputpath=\"response_out\">    <map inputpath=\"VTI_SAMPLE_ORDER\" outputpath=\"E_VTI_SAMPLE_ORDER\">      <set-param inputpath=\"DELETED\" outputpath=\"DELETED\"/>      <map inputpath=\"\"outputpath=\"D_VTI_SAMPLE_ORDER_ITEM\">        <set-param inputpath=\"VTI_SAMPLE_ORDER_ITEM/DELETED\" outputpath=\"DELETED\"/>        <map inputpath=\"VTI_SAMPLE_PRODUCT\" outputpath=\"B_VTI_SAMPLE_PRODUCT\">          <set-param inputpath=\"../VTI_SAMPLE_ORDER_ITEM/VTI_SAMPLE_PRODUCT/DELETED\" outputpath=\"DELETED\"/>        </map>        <map inputpath=\"\"outputpath=\"C_VTI_SAMPLE_ITEM_COMP\">          <set-param inputpath=\"VTI_SAMPLE_ORDER_ITEM/VTI_SAMPLE_ITEM_COMP/DELETED\" outputpath=\"DELETED\"/>          <map inputpath=\"VTI_SAMPLE_COMPONENT\" outputpath=\"A_VTI_SAMPLE_COMPONENT\">            <set-param inputpath=\"../VTI_SAMPLE_ORDER_ITEM/VTI_SAMPLE_ITEM_COMP/VTI_SAMPLE_COMPONENT/DELETED\" outputpath=\"DELETED\"/>          </map>        </map>      </map>    </map>  </map></mapper>",
+		"iVisualMappingData": null,
+		"oVisualMappingData": "{\"linkDataArray\":[{\"category\":\"Mapping\",\"visible\":true,\"__gohashid\":38801,\"from\":\"source:VTI_SAMPLE_ORDER:VTI_SAMPLE_ORDER_ITEM:VTI_SAMPLE_PRODUCT:DELETED:\",\"to\":\"target:E_VTI_SAMPLE_ORDER:D_VTI_SAMPLE_ORDER_ITEM:B_VTI_SAMPLE_PRODUCT:DELETED:\",\"fromPort\":\"source:VTI_SAMPLE_ORDER:VTI_SAMPLE_ORDER_ITEM:VTI_SAMPLE_PRODUCT:DELETED:\",\"toPort\":\"target:E_VTI_SAMPLE_ORDER:D_VTI_SAMPLE_ORDER_ITEM:B_VTI_SAMPLE_PRODUCT:DELETED:\"},{\"category\":\"Mapping\",\"visible\":true,\"__gohashid\":42057,\"from\":\"source:VTI_SAMPLE_ORDER:VTI_SAMPLE_ORDER_ITEM:DELETED:\",\"to\":\"target:E_VTI_SAMPLE_ORDER:D_VTI_SAMPLE_ORDER_ITEM:DELETED:\",\"fromPort\":\"source:VTI_SAMPLE_ORDER:VTI_SAMPLE_ORDER_ITEM:DELETED:\",\"toPort\":\"target:E_VTI_SAMPLE_ORDER:D_VTI_SAMPLE_ORDER_ITEM:DELETED:\"},{\"category\":\"Mapping\",\"visible\":true,\"__gohashid\":43182,\"from\":\"source:VTI_SAMPLE_ORDER:DELETED:\",\"to\":\"target:E_VTI_SAMPLE_ORDER:DELETED:\",\"fromPort\":\"source:VTI_SAMPLE_ORDER:DELETED:\",\"toPort\":\"target:E_VTI_SAMPLE_ORDER:DELETED:\"},{\"category\":\"Mapping\",\"visible\":true,\"__gohashid\":25861,\"from\":\"source:VTI_SAMPLE_ORDER:VTI_SAMPLE_ORDER_ITEM:VTI_SAMPLE_ITEM_COMP:DELETED:\",\"to\":\"target:E_VTI_SAMPLE_ORDER:D_VTI_SAMPLE_ORDER_ITEM:C_VTI_SAMPLE_ITEM_COMP:DELETED:\",\"fromPort\":\"source:VTI_SAMPLE_ORDER:VTI_SAMPLE_ORDER_ITEM:VTI_SAMPLE_ITEM_COMP:DELETED:\",\"toPort\":\"target:E_VTI_SAMPLE_ORDER:D_VTI_SAMPLE_ORDER_ITEM:C_VTI_SAMPLE_ITEM_COMP:DELETED:\"},{\"category\":\"Mapping\",\"visible\":true,\"__gohashid\":27600,\"from\":\"source:VTI_SAMPLE_ORDER:VTI_SAMPLE_ORDER_ITEM:VTI_SAMPLE_ITEM_COMP:VTI_SAMPLE_COMPONENT:DELETED:\",\"to\":\"target:E_VTI_SAMPLE_ORDER:D_VTI_SAMPLE_ORDER_ITEM:C_VTI_SAMPLE_ITEM_COMP:A_VTI_SAMPLE_COMPONENT:DELETED:\",\"fromPort\":\"source:VTI_SAMPLE_ORDER:VTI_SAMPLE_ORDER_ITEM:VTI_SAMPLE_ITEM_COMP:VTI_SAMPLE_COMPONENT:DELETED:\",\"toPort\":\"target:E_VTI_SAMPLE_ORDER:D_VTI_SAMPLE_ORDER_ITEM:C_VTI_SAMPLE_ITEM_COMP:A_VTI_SAMPLE_COMPONENT:DELETED:\"},{\"from\":\"source\",\"to\":\"source:VTI_SAMPLE_ORDER\",\"fromPort\":\"source\",\"toPort\":\"source:VTI_SAMPLE_ORDER\",\"visible\":true,\"common\":false,\"__gohashid\":4580},{\"from\":\"target\",\"to\":\"target:E_VTI_SAMPLE_ORDER\",\"fromPort\":\"target\",\"toPort\":\"target:E_VTI_SAMPLE_ORDER\",\"visible\":true,\"common\":false,\"__gohashid\":4645}],\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"E_VTI_SAMPLE_ORDER\",\"xy\":\"780 100\",\"__gohashid\":12175},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"VTI_SAMPLE_ORDER\",\"xy\":\"170 39\",\"__gohashid\":12176}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":false}",
+		"applyCommonMapping": false,
+		"entityMetadata": "{\"skyEntityMetadataRuntime\":{\"service\":\"VTI_SAMPLE_ORDERS\",\"entityName\":\"VTI_SAMPLE_ORDER\",\"autoGeneratedFields\":[\"ORDER_NUMBER\",\"ORDER_TYPE\"],\"fMap\":{},\"sQuery\":\"\",
+		\"relatedEntities\":[{\"relationshipType\":\"MANY_TO_ONE\",\"service\":\"VTI_SAMPLE_ORDERS\",\"entityName\":\"EXTENDED_ATTRIBUTE\",\"relationshipKeys\":[]},{\"relationshipType\":\"MANY_TO_ONE\",\"service\":\"VTI_SAMPLE_ORDERS\",\"entityName\":\"VTI_SAMPLE_COMPANY\",\"relationshipKeys\":[{\"parentKey\":\"COMPANY\",\"childKey\":\"COMPANY\"}]},{\"relationshipType\":\"ONE_TO_MANY\",\"service\":\"VTI_SAMPLE_ORDERS\",\"entityName\":\"VTI_SAMPLE_ORDER_ITEM\",\"relatedEntities\":[{\"relationshipType\":\"ONE_TO_MANY\",\"service\":\"VTI_SAMPLE_ORDERS\",\"entityName\":\"VTI_SAMPLE_ITEM_COMP\",\"relatedEntities\":[{\"relationshipType\":\"MANY_TO_ONE\",\"service\":\"VTI_SAMPLE_ORDERS\",\"entityName\":\"VTI_SAMPLE_COMPONENT\",\"relationshipKeys\":[{\"parentKey\":\"COMPONENT\",\"childKey\":\"COMPONENT\"}]}],\"relationshipKeys\":[{\"parentKey\":\"ITEM_NUMBER\",\"childKey\":\"ITEM_NUMBER\"},{\"parentKey\":\"ORDER_NUMBER\",\"childKey\":\"ORDER_NUMBER\"}]},{\"relationshipType\":\"MANY_TO_ONE\",\"service\":\"VTI_SAMPLE_ORDERS\",\"entityName\":\"VTI_SAMPLE_PRODUCT\",\"relationshipKeys\":[{\"parentKey\":\"PRODUCT\",\"childKey\":\"PRODUCT\"}]}],\"relationshipKeys\":[{\"parentKey\":\"ORDER_NUMBER\",\"childKey\":\"ORDER_NUMBER\"}]}],\"config\":{}}}",
+		"opcode": "query",
+		"backendMeta": {
+			"dataObjectName": "VTI_SAMPLE_ORDERS",
+			"libraryName": "VTI_INTERNAL",
+			"businessObjectName": "VTI_SAMPLE_ORDER"
+		},
+		"relationshipHierarchyMapping": {
+			"children": [{
+				"children": [{
+					"children": [{
+						"children": [],
+						"name": "A_VTI_SAMPLE_COMPONENT",
+						"id": "acb09639-4bd5-49ab-bc2d-fc18891211c3",
+						"selected": true
+					}],
+					"name": "C_VTI_SAMPLE_ITEM_COMP",
+					"id": "04b36bb8-fd83-48e1-a726-0940b12b56df",
+					"selected": true
+				},
+				{
+					"children": [],
+					"name": "B_VTI_SAMPLE_PRODUCT",
+					"id": "0971533f-fd17-4cc5-ae74-c975a9410286",
+					"selected": true
+				}],
+				"name": "D_VTI_SAMPLE_ORDER_ITEM",
+				"id": "6190d8de-4edf-47bc-b8ef-1a009ca8ed92",
+				"selected": true
+			}],
+			"name": "E_VTI_SAMPLE_ORDER",
+			"id": "4d0ae20a-ccd3-4a28-884d-165186af4f2f",
+			"selected": true
+		},
+		"fullyQualifiedBackendVerbName": "VTI_INTERNAL.VTI_SAMPLE_ORDERS.VTI_SAMPLE_ORDER.get",
+		"requestXmlMappingOverride": false,
+		"responseXmlMappingOverride": false
+	}
+}

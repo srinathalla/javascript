@@ -1,0 +1,462 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"forma",
+				"formalGreetings"
+			],
+			[
+				"greeti",
+				"greeting"
+			],
+			[
+				"formal",
+				"formalGreeting"
+			],
+			[
+				"form",
+				"formalGreeting"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"l",
+				"lang"
+			],
+			[
+				"la",
+				"lname"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/D/srinath/github/javascript/angular/directives/timer/timer.html",
+			"settings":
+			{
+				"buffer_size": 471,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/srinath/github/javascript/angular/directives/timer/script.js",
+			"settings":
+			{
+				"buffer_size": 889,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "(function(angular) {"
+			}
+		},
+		{
+			"file": "/D/srinath/github/javascript/angular/directives/CustomDirective.html",
+			"settings":
+			{
+				"buffer_size": 479,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"package control",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/KH2024/Downloads/B5-Undefined/B5_undefined/Finished",
+		"/C/Users/KH2024/Downloads/B5-Undefined/B5_undefined/Starter",
+		"/D/srinath/github/GreeterLibrary",
+		"/D/srinath/github/GreeterLibrary/Finished",
+		"/D/sri/mbaas_srinath/Mbaas/mbaasportal/src/main/webapp/Angular/projects/objectservices",
+		"/D/sri/mbaas_srinath/Mbaas/mbaasportal/src/main/webapp/Angular/projects/servicemgmt",
+		"/D/sri/sri_mbaas/Mbaas/mbaasportal/src/main/webapp/Angular/projects/objectservices/templates/views",
+		"/D/srinath/github/javascript/angular",
+		"/D/srinath/github/javascript/angular/basic",
+		"/D/srinath/github/javascript/angular/components",
+		"/D/srinath/github/javascript/angular/directives",
+		"/D/srinath/github/javascript/angular/directives/timer",
+		"/C/Users/KH2024/Desktop/Code-Creating-A-Directive/Finished/pages",
+		"/C/Users/KH2024/Desktop/Code-Directives-Scope-Part-2",
+		"/C/Users/KH2024/Desktop/Code-Directives-Scope-Part-2/Finished",
+		"/C/Users/KH2024/Desktop/Code-Directives-Scope-Part-2/Finished/directives",
+		"/C/Users/KH2024/Desktop/Code-Directives-Scope-Part-2/Finished/pages"
+	],
+	"file_history":
+	[
+		"/D/srinath/github/javascript/angular/components/heroDetail.html",
+		"/D/srinath/github/javascript/angular/directives/my-customer-plus-vojta.html",
+		"/D/srinath/github/javascript/angular/components/heroDetail.js",
+		"/D/srinath/github/javascript/angular/components/index.js",
+		"/C/Users/KH2024/Desktop/Code-Directives-Scope-Part-2/Finished/index.htm",
+		"/D/srinath/github/javascript/angular/directives/MyCustomerDirective.js",
+		"/D/srinath/github/javascript/angular/directives/index.html",
+		"/D/srinath/github/javascript/angular/directives/CustomDirective.html",
+		"/D/srinath/github/javascript/angular/directives/script_customer_directive.js",
+		"/C/Users/KH2024/Desktop/Code-Creating-A-Directive/Finished/index.htm",
+		"/C/Users/KH2024/Desktop/Code-Directives-Scope-Part-2/Finished/pages/main.html",
+		"/C/Users/KH2024/Desktop/Code-Creating-A-Directive/Finished/pages/main.html",
+		"/D/srinath/github/javascript/angular/controllers/invoiceDisplay.html",
+		"/D/srinath/github/javascript/angular/directives/my-customer-iso.html",
+		"/D/srinath/github/javascript/angular/FilterInController.html",
+		"/D/srinath/github/javascript/angular/CustomDirective.html",
+		"/D/srinath/github/javascript/angular/invoiceController.js",
+		"/D/srinath/github/javascript/angular/FilterController.js",
+		"/D/srinath/github/javascript/angular/ReverseFilter.html",
+		"/D/srinath/github/javascript/angular/reverseCustomFilter.js",
+		"/D/srinath/github/javascript/angular/userForm.html",
+		"/D/srinath/github/javascript/angular/invoiceDisplay.html",
+		"/D/srinath/github/javascript/angular/financeAppFactory.js",
+		"/D/srinath/github/javascript/angular/SayHello.html",
+		"/D/srinath/github/javascript/angular/script.js",
+		"/D/sri/sri_mbaas/Mbaas/mbaasportal/src/main/webapp/Angular/projects/objectservices/service_visualmapper.js",
+		"/C/Users/KH2024/Desktop/Mapper_EHS_App",
+		"/C/Users/KH2024/Desktop/Services/_Integration/Quote/1.0/Operations/getClone.xml",
+		"/D/MobileFabricInstaller-DEV-7.3.1.130/logs/mbaasportal.log",
+		"/D/MobileFabricInstaller-DEV-7.3.1.130/tomcat/bin/catalina.bat",
+		"/D/srinath/github/javascript/js/boostrap/package.json",
+		"/D/srinath/github/javascript/js/boostrap/npm-debug.log",
+		"/C/Users/KH2024/Desktop/tobedone.txt",
+		"/C/Users/KH2024/Desktop/TestScenarios_VisualMapper.txt",
+		"/D/Program Files/Sublime Text 3/Amma",
+		"/D/MobileFabricInstaller-DEV-7.3.1.81/tomcat/webapps/workspace/WEB-INF/classes/workspaceService.key",
+		"/D/srinath/github/javascript/js/boostrap/bootstrapgrid.html",
+		"/D/srinath/github/javascript/js/boostrap/basics.html",
+		"/D/srinath/github/javascript/js/bootstraplay.html",
+		"/C/Users/KH2024/Desktop/servicedef.xml",
+		"/D/MobileFabricInstaller-DEV-7.3.1.81/tomcat/logs/catalina.2017-05-23.log",
+		"/D/MobileFabricInstaller-DEV-7.3.1.81/tomcat/logs/localhost.2017-05-23.log",
+		"/D/MobileFabricInstaller-DEV-7.3.1.81/tomcat/logs/localhost.2017-05-22.log",
+		"/D/MobileFabricInstaller-DEV-7.3.1.81/tomcat/logs/catalina.2017-05-22.log",
+		"/D/MobileFabricInstaller-DEV-7.3.1.81/logs/mbaasportal.log",
+		"/D/sri/mbaas_srinath/Mbaas/mbaasportal/src/main/webapp/Angular/projects/objectservices/directives.js",
+		"/D/sri/mbaas_srinath/Mbaas/mbaasportal/src/main/webapp/Angular/projects/objectservices/connectors/services/service_CustomDataAdapter.js",
+		"/D/sri/mbaas_srinath/Mbaas/mbaasportal/src/main/webapp/Angular/projects/servicemgmt/routes/routeObjectService.js",
+		"/D/sri/mbaas_srinath/Mbaas/mbaasportal/src/main/webapp/Angular/projects/objectservices/app.js",
+		"/D/sri/mbaas_srinath/Mbaas/mbaasportal/src/main/webapp/Angular/projects/objectservices/connectors/endpointConnector.js",
+		"/D/sri/mbaas_srinath/Mbaas/mbaasportal/src/main/webapp/Angular/projects/objectservices/connectors/services/service_sky.js",
+		"/D/sri/mbaas_srinath/Mbaas/mbaasportal/src/main/webapp/Angular/projects/objectservices/service_visualmapper.js",
+		"/D/sri/mbaas_srinath/Mbaas/mbaasportal/src/main/webapp/Angular/projects/objectservices/controllers/objectServicesObjectsController.js",
+		"/D/MobileFabricInstaller-DEV-7.3.1.58/logs/workspaceService.log",
+		"/D/MobileFabricInstaller-DEV-7.3.1.58/tomcat/webapps/mfconsole/Angular/projects/objectservices/service_visualmapper.js",
+		"/C/Users/KH2024/Desktop/SDOVisualMapper_Queries.txt",
+		"/D/srinath/github/GreeterLibrary/Starter/Greeter.js",
+		"/D/srinath/github/GreeterLibrary/Starter/app.js",
+		"/D/sri/mbaas_srinath/Mbaas/mbaasportal/src/main/webapp/Angular/projects/objectservices/templates/importServiceDrivenObjects.html",
+		"/D/srinath/github/GreeterLibrary/Starter/index.html",
+		"/D/sri/mbaas_srinath/Mbaas/mbaasportal/src/main/webapp/Angular/projects/objectservices/templates/views/verbMapping.html",
+		"/C/Users/KH2024/Desktop/GOjs.json",
+		"/C/Users/KH2024/Downloads/jquery-3.2.1.js",
+		"/C/Users/KH2024/Downloads/B5-Undefined/B5_undefined/Starter/app.js",
+		"/C/Users/KH2024/Downloads/B5-Undefined/B5_undefined/Starter/index.html",
+		"/C/Users/KH2024/Downloads/B5-Undefined/B5_undefined/Starter/Greeter.js",
+		"/D/srinath/github/javascript/js/sample.js",
+		"/D/srinath/github/javascript/gojs/GoJsTest.html",
+		"/D/srinath/github/javascript/js/index.html"
+	],
+	"find":
+	{
+		"height": 42.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"D:\\srinath\\github\\javascript\\angular\\directives"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"index.html",
+			"generateXMLForVisualMappingsAPI",
+			"populateObjectFieldsForAppDataModel",
+			"getBusinessObjectHierarchy",
+			"createRequestModel",
+			"getverb",
+			"populateFieldsOfObjectTreeStructure",
+			"getObjectFields",
+			"Decisionmaker",
+			"changeVisibility",
+			"changeVisibilityOfBlocksAndAssociatedLinks",
+			"visualmappingtranslator",
+			"verbs/get/visualmappingtranslator",
+			"details",
+			"supportedlanguages",
+			"lang",
+			"lname",
+			"fname",
+			"getOutPortTemplate",
+			"diagramTemplates",
+			";",
+			"void"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"supportedLanguages",
+			"language",
+			"lastName",
+			"firstName",
+			";return this;",
+			"LinkContext"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/D/srinath/github/javascript/angular/directives/timer/timer.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 471,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								223,
+								223
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 17.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/D/srinath/github/javascript/angular/directives/timer/script.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 889,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								889,
+								889
+							]
+						],
+						"settings":
+						{
+							"auto_name": "(function(angular) {",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/D/srinath/github/javascript/angular/directives/CustomDirective.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 479,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								134,
+								226
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 42.0
+	},
+	"input":
+	{
+		"height": 50.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "JsAliceSessions.sublime-project",
+	"replace":
+	{
+		"height": 80.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"visu",
+				"objectservices\\service_visualmapper.js"
+			],
+			[
+				"servicevi",
+				"objectservices\\service_visualmapper.js"
+			],
+			[
+				"verbm",
+				"objectservices\\templates\\views\\verbMapping.html"
+			],
+			[
+				"dire",
+				"objectservices\\directives.js"
+			],
+			[
+				"direc",
+				"objectservices\\templates\\importServiceDrivenObjects.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 58.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 624.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 344.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
