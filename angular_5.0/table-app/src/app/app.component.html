@@ -1,0 +1,16 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  
+</div>
+
+First name:<br>
+<input type="text" name="firstname"  (input) ="onUpdateServerName($event)"><br>
+
+<button class="btn btnprimary" [disabled] = "!allow">Add Button </button>
+
+<button class="btn btnprimary" (click) = "allowServers()">Allow </button>
+
+<!-- <router-outlet></router-outlet>-->
