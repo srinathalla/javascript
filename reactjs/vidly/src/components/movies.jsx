@@ -3,10 +3,10 @@ import { toast } from "react-toastify";
 
 import { getMovies, deleteMovie } from "../services/movieService";
 
-import Pagination from "./pagination";
+import Pagination from "./common/pagination";
 import { paginate } from "../utils/paginate";
 import { getGenres } from "../services/genreService";
-import ListGroup from "./listgroup";
+import ListGroup from "./common/listgroup";
 import { Link } from "react-router-dom";
 import SearchBox from "./searchbox";
 import MoviesTable from "./moviesTable";
@@ -122,8 +122,6 @@ class Movies extends Component {
     } = this.state;
 
     const { user } = this.props;
-
-    console.log(user);
 
     let moviesFilteredByGenre = movies;
 

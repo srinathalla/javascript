@@ -1,8 +1,8 @@
 import React from "react";
-import Form from "./form";
+import Form from "./common/form";
 import Joi from "joi-browser";
-import Input from "./input";
-import Select from "./select";
+import Input from "./common/input";
+import Select from "./common/select";
 import { getGenres } from "../services/genreService";
 import { getMovie, saveMovie } from "../services/movieService";
 
